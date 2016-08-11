@@ -11,3 +11,8 @@ import scrapy
 class NewsArticle(scrapy.Item):
     title = scrapy.Field()
     text = scrapy.Field()
+
+
+class Lyrics(scrapy.Item):
+    title = scrapy.Field()
+    text = scrapy.Field()
